@@ -1,2 +1,0 @@
-"# gkquiz" 
-"# gkquiz" 
