@@ -1,0 +1,626 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the base word for 'unbelievably'?",
+
+            "options": {
+                "a": "believe",
+                "b": "believable",
+                "c": "believabley",
+                "d": "believen"
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 2,
+            "question": "What is the base word of 'unnecessary'?",
+
+            "options": {
+                "a": "Necessary",
+                "b": "Necessitate",
+                "c": "Unnecessitate",
+                "d": "Necessity"
+                },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 3,
+            "question": "What is the antonym of 'fast'?",
+
+            "options": {
+                "a": "Quick",
+                "b": "Slow",
+                "c": "Rapid",
+                "d": "Speed"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 4,
+            "question": "What is the past tense of 'begin'?",
+
+            "options": {
+                "a": "Begins",
+                "b": "Began",
+                "c": "Beginned",
+                "d": "Beginning"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 5,
+            "question": "Select the correct sentence:",
+
+            "options": {
+                "a": "They has finished their homework.",
+                "b": "They have finished their homework.",
+                "c": "They is finishing their homework.",
+                "d": "They were finished their homework."
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 6,
+            "question": "Choose the correct article: 'She bought _____ apple.'",
+
+            "options": {
+                "a": "a",
+                "b": "an",
+                "c": "the",
+                "d": "None"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 7,
+            "question": "Which sentence is in the future tense?",
+
+            "options": {
+                "a": "She will play tennis tomorrow.",
+                "b": "She played tennis yesterday.",
+                "c": "She is playing tennis now.",
+                "d": "She plays tennis every day."
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 8,
+            "question": "Identify the verb in this sentence: 'The dog barked loudly.'",
+
+            "options": {
+                "a": "Dog",
+                "b": "Barked",
+                "c": "Loudly",
+                "d": "The"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 9,
+            "question": "Select the correct sentence:",
+
+            "options": {
+                "a": "He plays well.",
+                "b": "He is play well.",
+                "c": "He play well.",
+                "d": "He is plays well."
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 10,
+            "question": "Which word is a synonym of 'tired'?",
+
+            "options": {
+                "a": "Sleepy",
+                "b": "Awake",
+                "c": "Energetic",
+                "d": "Lively"
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 11,
+            "question": "What is the antonym of 'loud'?",
+
+            "options": {
+                "a": "Quiet",
+                "b": "Soft",
+                "c": "Noisy",
+                "d": "Loudest"
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 12,
+            "question": "What type of sentence is this: 'Close the door, please.'",
+
+            "options": {
+                "a": "Imperative",
+                "b": "Declarative",
+                "c": "Interrogative",
+                "d": "Exclamatory"
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 13,
+            "question": "Identify the adjective in this sentence: 'The blue car is fast.'",
+
+            "options": {
+                "a": "Blue",
+                "b": "Car",
+                "c": "Is",
+                "d": "Fast"
+            },
+
+            "correct_option": "a"
+        }
+
+
+
+        {
+            "id": 14,
+            "question": "What is the plural form of 'loaf'?",
+
+            "options": {
+                "a": "Loafs",
+                "b": "Loaves",
+                "c": "Loafes",
+                "d": "Loafs"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 15,
+            "question": "Which sentence is written in past tense?",
+
+            "options": {
+                "a": "He plays football.",
+                "b": "He is playing football.",
+                "c": "He played football.",
+                "d": "He will play football."
+            },
+
+            "correct_option": "c"
+        },
+
+
+
+        {
+            "id": 16,
+            "question": "What is the plural form of 'leaf'?",
+
+            "options": {
+                "a": "Leafs",
+                "b": "Leafes",
+                "c": "Leaves",
+                "d": "Leavs"
+            },
+
+            "correct_option": "c"
+        },
+
+
+
+        {
+            "id": 17,
+            "question": "Identify the verb in this sentence: 'The boy ran quickly to the park.'",
+
+            "options": {
+                "a": "Boy",
+                "b": "Ran",
+                "c": "Quickly",
+                "d": "Park"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 18,
+            "question": "Which word is a conjunction in this sentence: 'He ate lunch, and then he left.'",
+
+            "options": {
+                "a": "He",
+                "b": "And",
+                "c": "Ate",
+                "d": "Then"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 19,
+            "question": "Identify the adjective in this sentence: 'The big elephant trumpeted loudly.'",
+
+            "options": {
+                "a": "Elephant",
+                "b": "Big",
+                "c": "Trumpeted",
+                "d": "Loudly"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 20,
+            "question": "Which sentence is an exclamatory sentence?",
+
+            "options": {
+                "a": "Wow, this is amazing!",
+                "b": "This is amazing.",
+                "c": "Is this amazing?",
+                "d": "I am amazing."
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 21,
+            "question": "Which word is a synonym for 'difficult'?",
+
+            "options": {
+                "a": "Easy",
+                "b": "Hard",
+                "c": "Impossible",
+                "d": "Challenging"
+            },
+
+            "correct_option": "d"
+        },
+
+
+
+        {
+            "id": 22,
+            "question": "Choose the correct form of 'its/it's': _____ been a long day.",
+
+            "options": {
+                "a": "Its",
+                "b": "It's",
+                "c": "Its'",
+                "d": "It is'"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 23,
+            "question": "Which sentence uses an adverb?",
+
+            "options": {
+                "a": "She is beautiful.",
+                "b": "He ran fast.",
+                "c": "The book is interesting.",
+                "d": "The cat is big."
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 24,
+            "question": "Which word is an antonym of 'rich'?",
+
+            "options": {
+                "a": "Poor",
+                "b": "Wealthy",
+                "c": "Affluent",
+                "d": "Prosperous"
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 25,
+            "question": "Choose the correct form of 'to/too/two': We have _____ many assignments.",
+
+            "options": {
+                "a": "Two",
+                "b": "To",
+                "c": "Too",
+                "d": "Tow"
+            },
+
+            "correct_option": "c"
+        },
+
+
+
+        {
+            "id": 26,
+            "question": "What is the past tense of 'read'?",
+
+            "options": {
+                "a": "Reading",
+                "b": "Readed",
+                "c": "Read",
+                "d": "Reads"
+            },
+
+            "correct_option": "c"
+        }
+
+
+
+        {
+            "id": 27,
+            "question": "Which sentence contains a conjunction?",
+
+            "options": {
+                "a": "She walked to the park.",
+                "b": "He reads books and writes stories.",
+                "c": "The sun shines brightly.",
+                "d": "They are playing outside."
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 28,
+            "question": "Select the sentence written in past continuous tense:",
+
+            "options": {
+                "a": "He was singing.",
+                "b": "He will be singing.",
+                "c": "He sings.",
+                "d": "He is singing."
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 29,
+            "question": "Choose the correct form of 'to/too/two': He ate much.",
+
+            "options": {
+                "a": "Two",
+                "b": "To",
+                "c": "Too",
+                "d": "Tow"
+            },
+
+            "correct_option": "c"
+        },
+
+
+
+        {
+            "id": 30,
+            "question": "Choose the correct spelling:",
+
+            "options": {
+                "a": "Embarass",
+                "b": "Embarrass",
+                "c": "Embarese",
+                "d": "Embaraes"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 31,
+            "question": "What is the synonym of 'correct'?",
+
+            "options": {
+                "a": "Wrong",
+                "b": "Right",
+                "c": "FALSE",
+                "d": "Bad"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 32,
+            "question": "Which word is a conjunction in this sentence: 'I want to go, but I am tired.'",
+
+            "options": {
+                "a": "Go",
+                "b": "But",
+                "c": "Tired",
+                "d": "Want"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 33,
+            "question": "What is the synonym of 'large'?",
+
+            "options": {
+                "a": "Tiny",
+                "b": "Big",
+                "c": "Small",
+                "d": "Little"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 34,
+            "question": "Which sentence uses the correct form of 'its/it's'?",
+
+            "options": {
+                "a": "Is raining outside.",
+                "b": "Its raining outside.",
+                "c": "It is' raining outside.",
+                "d": "It's raining outside."
+            },
+
+            "correct_option": "d"
+        },
+
+
+
+        {
+            "id": 35,
+            "question": "Which word is a pronoun in this sentence: 'They gave her a present.'",
+
+            "options": {
+                "a": "They",
+                "b": "Gave",
+                "c": "Present",
+                "d": "Her"
+            },
+
+            "correct_option": "a"
+        },
+
+
+
+        {
+            "id": 36,
+            "question": "Which word is an antonym of 'increase'?",
+
+            "options": {
+                "a": "Grow",
+                "b": "Rise",
+                "c": "Reduce",
+                "d": "Multiply"
+            },
+
+            "correct_option": "c"
+        },
+
+
+
+        {
+            "id": 37,
+            "question": "What is the plural of 'foot'?",
+
+            "options": {
+                "a": "Foots",
+                "b": "Feet",
+                "c": "Feets",
+                "d": "Footes"
+            },
+
+            "correct_option": "b"
+        },
+
+
+
+        {
+            "id": 38,
+            "question": "Choose the correct comparative form: 'This dress is _____ than that one.'",
+
+            "options": {
+                "a": "Good",
+                "b": "Gooder",
+                "c": "Better",
+                "d": "Best"
+            },
+
+            "correct_option": "c"
+        },
+
+
+
+        {
+            "id": 39,
+            "question": "What is the synonym of 'brave'?",
+
+            "options": {
+                "a": "Cowardly",
+                "b": "Fearful",
+                "c": "Courageous",
+                "d": "Weak"
+            },
+
+            "correct_option": "c"
+        }
+    ]
+}
+

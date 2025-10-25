@@ -1,0 +1,49 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"question": "What is the base word for 'unbelievably'?",
+		  	
+			"options": {
+				"a": "believe",
+				"b": "believable",
+				"c": "believabley",
+				"d": "believen"
+			},
+
+		  	"correct_option": "a"
+		},
+		
+		
+		
+		{
+			"id": 2,
+      			"question": "What is the base word of 'unnecessary'?",
+      			
+			"options": {
+				"a": "Necessary",
+				"b": "Necessitate",
+				"c": "Unnecessitate",
+				"d": "Necessity"
+      			},
+
+			"correct_option": "a"
+		},
+		
+		
+		
+		{
+			"id" : 3,
+			"question" : "What is the antonym of 'fast'?",
+
+			"options" : {
+				"a": "Quick",
+				"b": "Slow",
+				"c": "Rapid",
+				"d": "Speed"
+			},
+
+			"correct_option": "b"			
+		}
+  ]
+}

@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GK Quiz</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muizz Quiz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>General Knowledge Quiz</h1>
-        <div id="start-screen">
-            <button id="start-btn">Start Quiz</button>
-        </div>
-        <div id="question-container" class="hide">
-            <div id="timer" class="timer">Time: 0s</div>
-            <div id="question"></div>
-            <div id="options"></div>
-            <div class="controls">
-                <button id="back-btn" class="hide">Back</button>
-                <button id="next-btn">Next</button>
-            </div>
-        </div>
-        <div id="results-container" class="hide">
-            <h2>Quiz Results</h2>
-            <p id="results"></p>
-            <p id="total-time"></p>
-            <p id="avg-time"></p>
-            <div id="question-times"></div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+  <div id="start-screen">
+    <h2>Start Quiz</h2>
+    <button onclick="startQuiz(5)">Start (5 Questions)</button>
+    <button onclick="startQuiz('all')">Start All</button>
+  </div>
+
+  <div id="quiz-screen" style="display: none;">
+    <div id="timer">Time: 0s</div>
+    <div id="question-box"></div>
+    <button onclick="nextQuestion()">Next</button>
+  </div>
+
+  <div id="result-screen" style="display: none;">
+    <h2>Results</h2>
+    <ul id="time-report"></ul>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
