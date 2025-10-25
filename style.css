@@ -23,8 +23,8 @@ body {
 }
 
 #quiz-screen button {
-  float: right;
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
 }
 
 .option-inline input {

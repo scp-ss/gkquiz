@@ -4,6 +4,7 @@ let selectedLength = 0;
 let startTime = 0;
 let timeSpent = [];
 let results = [];
+let timerInterval;
 
 function shuffle(arr) {
     return arr.sort(() => Math.random() - 0.5);
@@ -63,9 +64,9 @@ function showQuestion() {
     const timerEl = document.getElementById('timer');
     if (timerEl) timerEl.textContent = 'Time: 0s';
 
-    const interval = setInterval(() => {
+    timerInterval = setInterval(() => {
         if (document.getElementById('quiz-screen').style.display === 'none') {
-            clearInterval(interval);
+            clearInterval(timerInterval);
         } else {
             const elapsed = Math.floor((Date.now() - startTime) / 1000);
             if (timerEl) timerEl.textContent = `Time: ${elapsed}s`;
@@ -74,6 +75,7 @@ function showQuestion() {
 }
 
 function nextQuestion() {
+    console.log('nextQuestion called, currentIndex:', currentIndex, 'selectedLength:', selectedLength);
     const selected = document.querySelector('input[name="answer"]:checked');
     const correctKey = questions[currentIndex].correct_option;
     const time = Math.floor((Date.now() - startTime) / 1000);
@@ -92,18 +94,46 @@ function nextQuestion() {
     if (currentIndex < selectedLength) {
         showQuestion();
     } else {
-        showResults();
+        showEndScreen();
     }
 }
 
-function showResults() {
+function showEndScreen() {
+    clearInterval(timerInterval);
     document.getElementById('quiz-screen').style.display = 'none';
+    document.getElementById('end-screen').style.display = 'block';
+}
+
+function showResults() {
+    document.getElementById('end-screen').style.display = 'none';
     document.getElementById('result-screen').style.display = 'block';
 
     const report = document.getElementById('time-report');
     if (!report) return;
     report.innerHTML = '';
 
+    // Calculate statistics
+    const totalTime = timeSpent.reduce((sum, item) => sum + item.time, 0);
+    const avgTime = totalTime / timeSpent.length;
+    const correctCount = results.filter(r => r.status === 'correct').length;
+    const incorrectCount = results.filter(r => r.status === 'incorrect').length;
+    const skippedCount = results.filter(r => r.status === 'skipped').length;
+
+    // Format total time as hr:min:sec:milisec
+    const hours = Math.floor(totalTime / 3600);
+    const minutes = Math.floor((totalTime % 3600) / 60);
+    const seconds = totalTime % 60;
+    const milliseconds = 0; // Since time is in seconds, no milliseconds
+    const formattedTotalTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}:${milliseconds.toString().padStart(3, '0')}`;
+
+    // Add summary
+    const summary = document.createElement('li');
+    summary.innerHTML = `<strong>Total Time: ${formattedTotalTime}</strong><br>
+                         <strong>Average Time per Question: ${avgTime.toFixed(2)}s</strong><br>
+                         <strong>Correct: ${correctCount}, Incorrect: ${incorrectCount}, Skipped: ${skippedCount}</strong>`;
+    report.appendChild(summary);
+
+    // Add individual question times
     results.forEach((r, i) => {
         const time = timeSpent[i].time;
         const li = document.createElement('li');
@@ -123,5 +153,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const nextBtn = document.getElementById('next-btn');
     if (nextBtn) {
         nextBtn.addEventListener('click', nextQuestion);
+    } else {
+        console.error('Next button not found');
     }
 });
